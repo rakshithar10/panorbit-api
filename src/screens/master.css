@@ -1,0 +1,71 @@
+.dashboard {
+  background: url("./images/wave-1.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.panel {
+  position: absolute;
+  width: 100%;
+  top: 40px;
+}
+.panel {
+  border-radius: 20px;
+  box-shadow: 10px 10x 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.panel .panel-heading {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 20px 22px;
+}
+
+.panel-body {
+  height: 430px;
+  overflow-y: scroll;
+}
+
+.panel-body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.panel-body::-webkit-scrollbar-track {
+}
+
+.panel-body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border: 1px solid slategrey;
+  border-radius: 4px;
+}
+.panel-body .list-group,
+.list-group li {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+}
+
+.list li {
+  display: flex;
+  padding: 4px 12px;
+  border-bottom: 2px solid #eee;
+  cursor: pointer;
+}
+
+.list li:focus,
+.list li:active {
+  background-color: #eee;
+}
+
+.userImg {
+  height: 40px;
+  width: 40px;
+}
+
+.list p {
+  position: relative;
+  left: 30px;
+  font-size: 1.4em;
+}

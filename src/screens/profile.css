@@ -1,0 +1,135 @@
+.sidebar {
+  height: 90vh;
+  background: linear-gradient(
+    to bottom,
+    rgb(8, 115, 187),
+    rgb(6, 127, 207),
+    rgb(170, 135, 235)
+  );
+  border-radius: 30px;
+  width: 20%;
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
+
+.sidebar .nav-pills {
+  background-color: transparent;
+  position: relative;
+  top: 30%;
+}
+
+.profile-body {
+  position: relative;
+  left: 40px;
+  height: 90vh;
+}
+
+.heading {
+  padding: 40px 40px;
+}
+
+.profile-heading {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  display: flex;
+  cursor: pointer;
+}
+
+.profile-heading p {
+  font-size: 1.4em;
+  margin-left: 10px;
+}
+
+.hr {
+  border: 1px solid #ddd;
+  position: relative;
+  top: 20px;
+}
+
+.profile-content .title {
+  color: #eee;
+  font-size: 6em;
+  margin: auto;
+  position: relative;
+  top: 150px;
+  font-weight: bold;
+}
+
+.nav-pills.active {
+  background: transparent;
+}
+
+.active span {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  padding: 8px 8px;
+  border-radius: 50%;
+  position: absolute;
+  right: -30px;
+  top: 4px;
+}
+
+.user {
+  height: 40px;
+  width: 40px;
+}
+
+.profile-block {
+  background: #fff;
+  box-shadow: 10px 10px 33px rgba(0, 0, 0, 0.3);
+  padding: 20px 20px;
+  width: 250px;
+  border-radius: 20px;
+  position: absolute;
+  right: 0px;
+  top: 100px;
+  z-index: 1;
+}
+
+.block-img {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  left: 30%;
+}
+
+.btn-danger {
+  border-radius: 20px;
+  background-color: crimson;
+}
+
+.proImg {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  left: 85px;
+}
+
+.chat {
+  width: 300px;
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+}
+
+.chat .panel-heading {
+  padding: 4px 8px;
+}
+
+.chat .chatList {
+  display: flex;
+}
+
+.chatList > .chat-img {
+  width: 40px;
+  height: 40px;
+}
+
+.chatList > p {
+  font-size: 1.2em;
+  position: relative;
+  left: 20px;
+}
